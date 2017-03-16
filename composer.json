@@ -1,0 +1,17 @@
+{
+    "name": "hydrogen/Zipper",
+    "description": "class to work with .zip files",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "waliddz",
+            "email": "walidlaggoune159@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+                "Zipper\\":"Zipper"
+        }
+   }
+}
