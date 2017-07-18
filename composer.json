@@ -1,5 +1,5 @@
 {
-    "name": "hydrogen/Zipper",
+    "name": "dilawsky/hydrogen-zipper",
     "description": "class to work with .zip files",
     "type": "library",
     "license": "MIT",
