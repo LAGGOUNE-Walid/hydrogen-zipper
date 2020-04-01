@@ -11,7 +11,7 @@ class UnzipperFacade {
 	public static function extract($zipFileName, $path, $files) {
 		$zip = new ZipArchive;
 		$zip->open($zipFileName);
-		if (sizeof($files) === 0) {
+		if (@sizeof($files) === 0) {
 			return $zip->extractTo($path);
 		}
 		return $zip->extractTo($path, $files);
