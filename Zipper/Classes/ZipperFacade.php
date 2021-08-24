@@ -13,7 +13,7 @@ class ZipperFacade implements ZipperFacadeInterface {
 		return $file->create($zipFileName);
 	}
 
-	public function add($zipFileName, $file) {
+	public static function add($zipFileName, $file) {
 		$zip = new \ZipArchive();
 		if (is_array($file)) {
 			$files = $file;
